@@ -29,7 +29,7 @@ def embedBitsToPixels(binaryTriplePairs, pixels):
        return newPixels
 
 def encodeLSB(message, imageFilename, newImageFilename):
-       path = r"/home/shivdutt/Desktop/lsb_steganography/resources/" + imageFilename
+       path = $enter your path here$(for ex:r"home/user/") + imageFilename
        img = Image.open(path)
        img.show()
        size = img.size
