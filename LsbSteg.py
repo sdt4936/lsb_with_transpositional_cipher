@@ -36,6 +36,7 @@ def encodeLSB(message, imageFilename, newImageFilename):
 
        print("Checking if the image can contain the message...")
        if not canEncode(message, img):
+              print("Successfully checked! Image cannot be encoded!")
               return None
 
        print("Successfully checked! Image can be encoded!")
